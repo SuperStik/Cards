@@ -1,0 +1,5 @@
+# ignore any binaries generated
+bin/*
+!bin/
+.DS_Store
+src/.DS_Store

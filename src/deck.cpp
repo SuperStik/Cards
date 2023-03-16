@@ -74,19 +74,6 @@ Card *Deck::Deal() {
 		cards[size] = NULL;
 		return c;
 	};
-	/*n = n <= size ? n : size;
-	Card** newDeck = (Card**)malloc(sizeof(Card*) * n);
-	if (!newDeck) {
-		errs("Failed to allocate card array!");
-		exit(EXIT_FAILURE);
-	}
-
-	for (unsigned i = 0; i < n; ++i) {
-		newDeck[i] = cards[--size];
-		cards[size] = NULL;
-	}
-
-	return newDeck;*/
 }
 
 void Deck::PrintHand(Card **c, size_t size) {

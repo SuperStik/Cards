@@ -29,5 +29,5 @@ bool Card::Equals(const Card &c) const {
 }
 
 bool Card::Equals(const Card *c) const {
-	return (Suit == c->Suit) && (Value == c->Value);
+	return Value == c->Value;
 }
